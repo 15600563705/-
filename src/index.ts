@@ -99,8 +99,8 @@ async function postDailyReportFormData(
 
 (async (): Promise<void> => {
     const loginForm: LoginForm = {
-        username: process.env["BUPT_USERNAME"],
-        password: process.env["BUPT_PASSWORD"]
+        username: 2018211626,
+        password: 10023878
     }
 
     if (!(!!loginForm.username && !!loginForm.password)) {
